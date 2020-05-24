@@ -1,0 +1,42 @@
+{
+  "child_msg" : ["Want to hear a joke ?","What about some news ?","Wanna get motivated ?","Terminate chat"],
+  "children" : [
+    {
+      "child_msg" : ["Funny Joke","Very funny Joke","PJ :)","Terminate chat"],
+      "children" : [
+        {
+          "message" : "getJoke()",
+          "type" : "function"
+        },
+        {
+          "message" : "Fuck off",
+          "type" : "normal"
+        },
+        {
+          "message" : "hello bitch",
+          "type" : "normal"
+        }
+      ]
+    },
+    {
+      "child_msg" : ["Local News","National News","World News","Terminate chat"],
+      "children" : [
+        {
+          "message" : "getNews()",
+          "type" : "function"
+        },
+        {
+          "message" : "India is the best",
+          "type" : "normal"
+        },
+        {
+          "message" : "India becomes a super power",
+          "type" : "normal"
+        }
+      ]
+    },
+    {
+      "message" : "You're amazing and everything you do will make a positive effect on the world"
+    }
+  ]
+}
