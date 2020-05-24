@@ -1,4 +1,4 @@
-# DSA-COURSE-PROJECTS-
+# DSA PROJECTS USING HTML,CSS&& JS-
 ## Snake Game 
 https://anmolwadali.s3.ap-south-1.amazonaws.com/js-projects/snake+game+/main.html
 ## Photo Editor 
